@@ -33,7 +33,12 @@ import org.apache.wicket.markup.html.panel.FeedbackPanel;
  */
 public class LoginPage extends WebPage
 {
-    public LoginPage()
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public LoginPage()
     {
         super();
         add(new LoginForm("login"));

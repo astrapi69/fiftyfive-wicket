@@ -15,13 +15,18 @@
  */
 package fiftyfive.wicket.util;
 
+import static fiftyfive.wicket.util.Shortcuts.afterTag;
+import static fiftyfive.wicket.util.Shortcuts.cssClass;
+import static fiftyfive.wicket.util.Shortcuts.cssResource;
+import static fiftyfive.wicket.util.Shortcuts.label;
+import static fiftyfive.wicket.util.Shortcuts.prop;
+import static fiftyfive.wicket.util.Shortcuts.toggledCssClass;
+
 import org.apache.wicket.markup.html.WebMarkupContainer;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.model.CompoundPropertyModel;
 import org.apache.wicket.model.Model;
-
-import static fiftyfive.wicket.util.Shortcuts.*;
 
 
 public class ShortcutsTestPage extends WebPage

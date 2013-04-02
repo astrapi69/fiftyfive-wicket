@@ -15,12 +15,11 @@
  */
 package fiftyfive.wicket.shiro.markup;
 
-import fiftyfive.wicket.shiro.BaseTest;
-import fiftyfive.wicket.test.WicketTestUtils;
-import org.apache.wicket.util.string.StringValue;
 import org.junit.Assert;
 import org.junit.Test;
-import static org.mockito.Mockito.*;
+
+import fiftyfive.wicket.shiro.BaseTest;
+import fiftyfive.wicket.test.WicketTestUtils;
 
 
 public class LogoutLinkTest extends BaseTest

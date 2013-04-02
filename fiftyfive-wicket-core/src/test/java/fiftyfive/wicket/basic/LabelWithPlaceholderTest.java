@@ -15,9 +15,11 @@
  */
 package fiftyfive.wicket.basic;
 
-import fiftyfive.wicket.BaseWicketTest;
+import static fiftyfive.wicket.test.WicketTestUtils.startComponentWithXHtml;
+
 import org.junit.Test;
-import static fiftyfive.wicket.test.WicketTestUtils.*;
+
+import fiftyfive.wicket.BaseWicketTest;
 
 public class LabelWithPlaceholderTest extends BaseWicketTest
 {

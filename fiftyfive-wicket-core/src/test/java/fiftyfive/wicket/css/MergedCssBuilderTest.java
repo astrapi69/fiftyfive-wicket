@@ -15,13 +15,13 @@
  */
 package fiftyfive.wicket.css;
 
-import fiftyfive.wicket.resource.MergedResourceBuilderTest;
-
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.request.resource.PackageResourceReference;
 import org.apache.wicket.request.resource.ResourceReference;
 import org.apache.wicket.util.tester.WicketTester;
 import org.junit.Test;
+
+import fiftyfive.wicket.resource.MergedResourceBuilderTest;
 
 
 public class MergedCssBuilderTest extends MergedResourceBuilderTest

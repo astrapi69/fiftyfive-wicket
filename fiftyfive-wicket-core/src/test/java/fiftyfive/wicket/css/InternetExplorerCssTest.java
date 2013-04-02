@@ -15,9 +15,9 @@
  */
 package fiftyfive.wicket.css;
 
-import fiftyfive.wicket.BaseWicketTest;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import fiftyfive.wicket.BaseWicketTest;
 
 public class InternetExplorerCssTest extends BaseWicketTest
 {

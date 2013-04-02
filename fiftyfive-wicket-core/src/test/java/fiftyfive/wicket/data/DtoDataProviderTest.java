@@ -18,9 +18,11 @@ package fiftyfive.wicket.data;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import fiftyfive.wicket.BaseWicketTest;
+
 import org.junit.Assert;
 import org.junit.Test;
+
+import fiftyfive.wicket.BaseWicketTest;
 
 public class DtoDataProviderTest extends BaseWicketTest
 {

@@ -18,6 +18,7 @@ package fiftyfive.wicket.css;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
+
 import org.apache.wicket.Component;
 import org.apache.wicket.behavior.Behavior;
 import org.apache.wicket.markup.ComponentTag;

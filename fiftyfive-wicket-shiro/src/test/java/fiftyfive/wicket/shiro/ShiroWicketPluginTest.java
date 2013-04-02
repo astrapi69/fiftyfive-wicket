@@ -15,15 +15,16 @@
  */
 package fiftyfive.wicket.shiro;
 
-import fiftyfive.wicket.shiro.markup.LoginPage;
-import fiftyfive.wicket.test.WicketTestUtils;
+import static org.mockito.Mockito.doThrow;
+
 import org.apache.shiro.authz.UnauthenticatedException;
 import org.apache.shiro.authz.UnauthorizedException;
 import org.apache.wicket.Page;
 import org.apache.wicket.feedback.FeedbackMessage;
 import org.junit.Assert;
 import org.junit.Test;
-import static org.mockito.Mockito.*;
+
+import fiftyfive.wicket.shiro.markup.LoginPage;
 
 public class ShiroWicketPluginTest extends BaseTest
 {

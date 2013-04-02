@@ -16,8 +16,6 @@
 
 package fiftyfive.wicket.resource;
 
-import static fiftyfive.wicket.util.Shortcuts.*;
-
 import org.apache.wicket.markup.head.CssReferenceHeaderItem;
 import org.apache.wicket.markup.head.IHeaderResponse;
 import org.apache.wicket.markup.head.JavaScriptReferenceHeaderItem;

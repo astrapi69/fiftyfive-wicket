@@ -17,7 +17,11 @@ package fiftyfive.wicket.shiro;
 
 public class ExceptionalPage extends BaseTestPage
 {
-    private RuntimeException exception;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private RuntimeException exception;
     
     public ExceptionalPage(RuntimeException e)
     {

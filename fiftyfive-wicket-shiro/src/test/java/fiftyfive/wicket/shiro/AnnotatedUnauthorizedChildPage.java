@@ -17,4 +17,9 @@ package fiftyfive.wicket.shiro;
 
 public class AnnotatedUnauthorizedChildPage extends AnnotatedUnauthorizedPage
 {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 }

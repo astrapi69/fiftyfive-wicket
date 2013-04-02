@@ -17,8 +17,6 @@ package fiftyfive.wicket;
 
 import java.util.Date;
 
-import fiftyfive.util.Version;
-
 import org.apache.wicket.protocol.http.RequestLogger;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.response.filter.AjaxServerAndClientTimeFilter;
@@ -27,7 +25,8 @@ import org.apache.wicket.util.time.Duration;
 import org.apache.wicket.util.time.Time;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import static org.apache.wicket.RuntimeConfigurationType.DEVELOPMENT;
+
+import fiftyfive.util.Version;
 
 /**
  * Useful base class for Wicket applications that implements best practices

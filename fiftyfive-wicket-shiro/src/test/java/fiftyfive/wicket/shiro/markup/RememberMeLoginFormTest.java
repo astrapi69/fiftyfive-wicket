@@ -15,13 +15,11 @@
  */
 package fiftyfive.wicket.shiro.markup;
 
-import fiftyfive.wicket.shiro.BaseTest;
-import fiftyfive.wicket.test.WicketTestUtils;
-import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.wicket.util.tester.FormTester;
 import org.junit.Test;
-import org.mockito.ArgumentMatcher;
-import static org.mockito.Mockito.*;
+
+import fiftyfive.wicket.shiro.BaseTest;
+import fiftyfive.wicket.test.WicketTestUtils;
 
 
 public class RememberMeLoginFormTest extends BaseTest

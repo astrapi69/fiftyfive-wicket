@@ -18,6 +18,7 @@ package fiftyfive.wicket.css;
 import java.io.Serializable;
 import java.util.Arrays;
 import java.util.List;
+
 import org.apache.wicket.Component;
 import org.apache.wicket.behavior.Behavior;
 import org.apache.wicket.markup.head.CssReferenceHeaderItem;

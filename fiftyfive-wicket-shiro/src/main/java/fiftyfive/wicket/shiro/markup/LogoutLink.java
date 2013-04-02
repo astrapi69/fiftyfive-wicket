@@ -31,9 +31,13 @@ import org.apache.wicket.request.mapper.parameter.PageParameters;
  * @since 3.0
  */
 @RequiresUser
-public class LogoutLink extends BookmarkablePageLink
+public class LogoutLink extends BookmarkablePageLink<Object>
 {
-    private final Class<? extends Page> destinationPage;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private final Class<? extends Page> destinationPage;
     private final PageParameters destinationParams;
     
     /**

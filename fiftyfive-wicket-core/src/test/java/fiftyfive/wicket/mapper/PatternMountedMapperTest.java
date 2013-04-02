@@ -15,18 +15,18 @@
  */
 package fiftyfive.wicket.mapper;
 
+import static org.mockito.Mockito.mock;
+
 import java.nio.charset.Charset;
 import java.util.Locale;
 
+import org.apache.wicket.core.request.mapper.IMapperContext;
 import org.apache.wicket.request.IRequestHandler;
 import org.apache.wicket.request.Request;
 import org.apache.wicket.request.Url;
-import org.apache.wicket.core.request.mapper.IMapperContext;
 import org.apache.wicket.util.tester.DummyHomePage;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.mockito.Mockito.mock;
 
 
 public class PatternMountedMapperTest

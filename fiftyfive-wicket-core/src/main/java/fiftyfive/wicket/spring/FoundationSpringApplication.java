@@ -15,10 +15,11 @@
  */
 package fiftyfive.wicket.spring;
 
-import fiftyfive.wicket.FoundationApplication;
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
+
+import fiftyfive.wicket.FoundationApplication;
 
 /**
  * An extension of {@link FoundationApplication} that additionally enables

@@ -32,9 +32,13 @@ import org.apache.wicket.request.mapper.parameter.PageParameters;
  * @since 3.0
  */
 @RequiresGuest
-public class LoginLink extends StatelessLink
+public class LoginLink extends StatelessLink<Object>
 {
-    private Class<? extends Page> destinationPage;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private Class<? extends Page> destinationPage;
     private PageParameters destinationParams;
     
     /**

@@ -17,8 +17,6 @@ package fiftyfive.wicket.util;
 
 import java.io.Serializable;
 
-import fiftyfive.wicket.test.PageWithInlineMarkup;
-import fiftyfive.wicket.test.WicketTestUtils;
 import org.apache.wicket.markup.html.link.BookmarkablePageLink;
 import org.apache.wicket.markup.html.link.Link;
 import org.apache.wicket.model.Model;
@@ -29,6 +27,9 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import fiftyfive.wicket.test.PageWithInlineMarkup;
+import fiftyfive.wicket.test.WicketTestUtils;
 
 public class ParameterSpecTest
 {

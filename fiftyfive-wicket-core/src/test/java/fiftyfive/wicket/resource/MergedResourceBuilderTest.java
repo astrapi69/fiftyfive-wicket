@@ -20,8 +20,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
-import fiftyfive.wicket.test.WicketTestUtils;
-
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.request.resource.caching.NoOpResourceCachingStrategy;
@@ -29,7 +27,7 @@ import org.apache.wicket.util.io.IOUtils;
 import org.apache.wicket.util.tester.DummyHomePage;
 import org.apache.wicket.util.tester.WicketTester;
 
-import static org.junit.Assert.assertArrayEquals;
+import fiftyfive.wicket.test.WicketTestUtils;
 
 
 public abstract class MergedResourceBuilderTest

@@ -18,7 +18,6 @@ package fiftyfive.wicket.shiro.markup;
 import org.apache.wicket.Component;
 import org.apache.wicket.markup.html.form.EmailTextField;
 import org.apache.wicket.markup.html.form.PasswordTextField;
-import org.apache.wicket.markup.html.form.StatelessForm;
 import org.apache.wicket.model.Model;
 
 /**
@@ -47,6 +46,11 @@ import org.apache.wicket.model.Model;
 public class LoginForm extends AbstractLoginForm
 {
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
      * Creates a login form that does not have a {@code rememberme} checkbox.
      */
     public LoginForm(String id)

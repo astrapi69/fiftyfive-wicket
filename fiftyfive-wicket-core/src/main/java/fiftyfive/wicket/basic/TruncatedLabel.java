@@ -15,10 +15,11 @@
  */
 package fiftyfive.wicket.basic;
 
-import fiftyfive.util.TruncateHelper;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.Model;
 import org.apache.wicket.util.string.Strings;
+
+import fiftyfive.util.TruncateHelper;
 
 /**
  * A Label that truncates its output to the specified maximum number of

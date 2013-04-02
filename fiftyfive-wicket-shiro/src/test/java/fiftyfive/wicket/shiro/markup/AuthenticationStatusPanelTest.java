@@ -43,7 +43,12 @@ public class AuthenticationStatusPanelTest extends BaseTest
     {
         mockAuthenticated();
         render(new AuthenticationStatusPanel("panel") {
-            @Override
+            /**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;
+
+			@Override
             public String getUsername()
             {
                 return "hello world!";

@@ -45,8 +45,6 @@ import org.apache.wicket.authorization.IAuthorizationStrategy;
 import org.apache.wicket.authorization.IUnauthorizedComponentInstantiationListener;
 import org.apache.wicket.authorization.UnauthorizedInstantiationException;
 
-import org.apache.wicket.markup.html.pages.AccessDeniedPage;
-
 import org.apache.wicket.protocol.http.WebApplication;
 
 import org.apache.wicket.request.IRequestHandler;
@@ -172,10 +170,18 @@ public class ShiroWicketPlugin
     public static final String LOGGED_OUT_MESSAGE_KEY = "loggedOut";
 
     private static final MetaDataKey<AuthorizationException> EXCEPTION_KEY =
-        new MetaDataKey<AuthorizationException>() {};
+        new MetaDataKey<AuthorizationException>() {
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;};
     
     private static final MetaDataKey<ShiroWicketPlugin> PLUGIN_KEY =
-        new MetaDataKey<ShiroWicketPlugin>() {};
+        new MetaDataKey<ShiroWicketPlugin>() {
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;};
 
     private static final AuthorizingAnnotationHandler[] HANDLERS =
         new AuthorizingAnnotationHandler[] {
@@ -231,8 +237,8 @@ public class ShiroWicketPlugin
     
     private String loginPath = "login";
     private String logoutPath = "logout";
-    private Class<? extends Page> loginPage = LoginPage.class;
-    private Class<? extends Page> logoutPage = LogoutPage.class;
+    private Class<? extends Page> loginPage;
+    private Class<? extends Page> logoutPage;
     private Class<? extends Page> unauthorizedPage = null;
     private boolean unauthorizedRedirect = true;
     
@@ -570,7 +576,12 @@ public class ShiroWicketPlugin
         IRequestHandler handler = onException(rc, cause);
         if(handler != null)
         {
-            throw new ResetResponseException(handler) {};
+            throw new ResetResponseException(handler) {
+
+				/**
+				 * 
+				 */
+				private static final long serialVersionUID = 1L;};
         }
         
         // Otherwise bubble up the error

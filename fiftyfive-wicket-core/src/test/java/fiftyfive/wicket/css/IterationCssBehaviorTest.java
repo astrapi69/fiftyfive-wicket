@@ -15,12 +15,12 @@
  */
 package fiftyfive.wicket.css;
 
-import fiftyfive.wicket.BaseWicketTest;
-
 import org.apache.wicket.markup.ComponentTag;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.parser.XmlTag.TagType;
 import org.junit.Test;
+
+import fiftyfive.wicket.BaseWicketTest;
 
 
 public class IterationCssBehaviorTest extends BaseWicketTest

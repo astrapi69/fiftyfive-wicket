@@ -15,11 +15,14 @@
  */
 package fiftyfive.wicket.css;
 
+import static fiftyfive.wicket.css.MergedCssBuilderTest.CSS_1;
+import static fiftyfive.wicket.css.MergedCssBuilderTest.CSS_2;
+import static fiftyfive.wicket.css.MergedCssBuilderTest.CSS_PRINT_1;
+import static fiftyfive.wicket.css.MergedCssBuilderTest.CSS_PRINT_2;
+
 import org.apache.wicket.markup.head.CssReferenceHeaderItem;
 import org.apache.wicket.markup.head.IHeaderResponse;
 import org.apache.wicket.markup.html.WebPage;
-
-import static fiftyfive.wicket.css.MergedCssBuilderTest.*;
 
 
 public class MergedCssBuilderTestPage extends WebPage

@@ -20,4 +20,9 @@ import org.apache.shiro.authz.annotation.RequiresRoles;
 @RequiresRoles("test-role")
 public class AnnotatedUnauthorizedPage extends BaseTestPage
 {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 }

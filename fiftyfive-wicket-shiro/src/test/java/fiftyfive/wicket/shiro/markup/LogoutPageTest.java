@@ -15,13 +15,14 @@
  */
 package fiftyfive.wicket.shiro.markup;
 
-import fiftyfive.wicket.shiro.BaseTest;
-import fiftyfive.wicket.test.WicketTestUtils;
+import static org.mockito.Mockito.verify;
+
 import org.apache.wicket.feedback.FeedbackMessage;
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 import org.junit.Assert;
 import org.junit.Test;
-import static org.mockito.Mockito.verify;
+
+import fiftyfive.wicket.shiro.BaseTest;
 
 public class LogoutPageTest extends BaseTest
 {

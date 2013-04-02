@@ -35,7 +35,7 @@ public abstract class BaseTest extends AbstractShiroJUnit4Tests
     {
         this.tester = new WicketTester(new WebApplication() {
             @Override
-            public Class getHomePage()
+            public Class<DummyHomePage> getHomePage()
             {
                 return DummyHomePage.class;
             }

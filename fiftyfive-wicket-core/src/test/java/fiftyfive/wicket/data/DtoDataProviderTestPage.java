@@ -15,11 +15,12 @@
  */
 package fiftyfive.wicket.data;
 
+import static fiftyfive.wicket.util.Shortcuts.label;
+
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.navigation.paging.PagingNavigator;
 import org.apache.wicket.markup.repeater.Item;
 import org.apache.wicket.markup.repeater.data.DataView;
-import static fiftyfive.wicket.util.Shortcuts.label;
 
 public class DtoDataProviderTestPage extends WebPage
 {

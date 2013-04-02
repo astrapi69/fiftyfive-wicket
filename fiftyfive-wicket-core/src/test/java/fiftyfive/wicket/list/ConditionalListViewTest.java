@@ -15,15 +15,18 @@
  */
 package fiftyfive.wicket.list;
 
+import static fiftyfive.wicket.test.WicketTestUtils.assertXPath;
+import static fiftyfive.wicket.test.WicketTestUtils.startComponentWithXHtml;
+import static fiftyfive.wicket.util.Shortcuts.label;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import fiftyfive.wicket.BaseWicketTest;
 import org.apache.wicket.markup.html.list.ListItem;
 import org.junit.Test;
-import static fiftyfive.wicket.test.WicketTestUtils.*;
-import static fiftyfive.wicket.util.Shortcuts.*;
+
+import fiftyfive.wicket.BaseWicketTest;
 
 public class ConditionalListViewTest extends BaseWicketTest
 {

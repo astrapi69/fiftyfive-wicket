@@ -15,13 +15,14 @@
  */
 package fiftyfive.wicket.css;
 
-import fiftyfive.wicket.resource.MergedResourceBuilder;
 import org.apache.wicket.Component;
 import org.apache.wicket.behavior.Behavior;
 import org.apache.wicket.markup.head.CssReferenceHeaderItem;
 import org.apache.wicket.markup.head.IHeaderResponse;
 import org.apache.wicket.request.resource.PackageResourceReference;
 import org.apache.wicket.request.resource.ResourceReference;
+
+import fiftyfive.wicket.resource.MergedResourceBuilder;
 
 
 /**

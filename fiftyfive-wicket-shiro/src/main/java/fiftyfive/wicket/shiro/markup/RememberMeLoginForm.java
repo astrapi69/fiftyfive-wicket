@@ -27,7 +27,11 @@ import org.apache.wicket.model.Model;
  */
 public class RememberMeLoginForm extends LoginForm
 {
-    private CheckBox rememberCheck;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private CheckBox rememberCheck;
 
     /**
      * Create a login form with a "remember me" checkbox.

@@ -75,7 +75,7 @@
     <slf4j.version>1.6.6</slf4j.version>
     <spring.version>3.1.1.RELEASE</spring.version>
     <util.version>1.0-SNAPSHOT</util.version>
-    <wicket.version>6.0.0</wicket.version>
+    <wicket.version>6.5.0</wicket.version>
   </properties>
 
 
@@ -229,56 +229,7 @@
       </testResource>
     </testResources>
     <plugins>
-      <plugin>
-        <groupId>com.mycila.maven-license-plugin</groupId>
-        <artifactId>maven-license-plugin</artifactId>
-        <version>1.9.0</version>
-        <configuration>
-          <header>${parent.dir}/etc/header.txt</header>
-          <failIfMissing>true</failIfMissing>
-          <mapping>
-            <scss>JAVADOC_STYLE</scss>
-          </mapping>
-          <useDefaultExcludes>false</useDefaultExcludes>
-          <includes>
-            <include>pom.xml</include>
-            <include>src/**</include>
-            <include>etc/javadoc/src/screen.scss</include>
-          </includes>
-          <excludes>
-            <exclude>**/.*</exclude>
-            <exclude>**/.*/**</exclude>
-            <exclude>**/*.gif</exclude>
-            <exclude>**/*.png</exclude>
-            <exclude>**/*.jpg</exclude>
-            <exclude>**/*.dtd</exclude>
-            <exclude>**/*.mod</exclude>
-            <exclude>**/*.ent</exclude>
-            <exclude>**/*.properties</exclude>
-            <exclude>**/*.tmproj</exclude>
-            <exclude>**/*.SAMPLE</exclude>
-            <exclude>**/src/main/javadoc/**</exclude>
-            <exclude>**/src/main/resources/archetype-resources/**</exclude>
-            <exclude>**/src/main/resources/fiftyfive/wicket/js/lib/**</exclude>
-            <exclude>**/src/test/**/*.html</exclude>
-            <exclude>**/src/test/**/*.css</exclude>
-            <exclude>**/src/test/**/*.js</exclude>
-            <exclude>**/src/test/**/Start.java</exclude>
-            <exclude>**/QueryStringMergedResourceRequestTargetUrlCodingStrategy.java</exclude>
-            <exclude>**/QueryStringSharedResourceRequestTargetUrlCodingStrategy.java</exclude>
-          </excludes>
-          <strictCheck>true</strictCheck>
-        </configuration>
-        <executions>
-          <execution>
-            <id>check-headers</id>
-            <phase>validate</phase>
-            <goals>
-              <goal>check</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
+      
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -317,18 +268,6 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>2.7</version>
-        <configuration>
-          <encoding>utf-8</encoding>
-          <stylesheetfile>${parent.dir}/etc/javadoc/stylesheets/screen.css</stylesheetfile>
-          <links>
-            <link>http://download.oracle.com/javase/6/docs/api/</link>
-            <link>http://download.oracle.com/docs/cd/E17802_01/products/products/servlet/2.5/docs/servlet-2_5-mr2/</link>
-            <link>http://wicket.apache.org/apidocs/1.5/</link>
-            <link>http://shiro.apache.org/static/${shiro.version}/apidocs/</link>
-            <link>http://static.springsource.org/spring/docs/3.0.x/javadoc-api/</link>
-            <link>http://opensource.55minutes.com/apidocs/fiftyfive-util/${util.version}/</link>
-          </links>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

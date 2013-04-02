@@ -15,7 +15,6 @@
  */
 package fiftyfive.wicket.model;
 
-import fiftyfive.wicket.util.HtmlUtils;
 import org.apache.wicket.Component;
 import org.apache.wicket.Page;
 import org.apache.wicket.model.AbstractReadOnlyModel;
@@ -23,6 +22,8 @@ import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.StringResourceModel;
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 import org.apache.wicket.util.lang.Args;
+
+import fiftyfive.wicket.util.HtmlUtils;
 
 /**
  * Selects an appropriate localized string based on whether a count value

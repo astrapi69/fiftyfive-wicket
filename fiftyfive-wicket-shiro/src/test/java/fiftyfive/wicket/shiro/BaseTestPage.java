@@ -19,7 +19,12 @@ import org.apache.wicket.markup.html.WebPage;
 
 public abstract class BaseTestPage extends WebPage
 {
-    public BaseTestPage()
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public BaseTestPage()
     {
     }
 }

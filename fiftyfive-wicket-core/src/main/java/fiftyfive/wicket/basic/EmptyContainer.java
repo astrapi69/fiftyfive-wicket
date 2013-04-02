@@ -15,9 +15,10 @@
  */
 package fiftyfive.wicket.basic;
 
-import fiftyfive.wicket.util.Shortcuts;
 import org.apache.wicket.markup.html.WebMarkupContainer;
 import org.apache.wicket.model.IModel;
+
+import fiftyfive.wicket.util.Shortcuts;
 
 /**
  * A WebMarkupContainer that is visible only if its model object is empty.

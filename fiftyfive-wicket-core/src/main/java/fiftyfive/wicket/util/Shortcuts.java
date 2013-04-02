@@ -19,31 +19,26 @@ import java.io.Serializable;
 import java.util.Collection;
 import java.util.Set;
 
-import fiftyfive.util.ReflectUtils;
-import fiftyfive.wicket.basic.LabelWithPlaceholder;
-import fiftyfive.wicket.css.CssClassModifier;
-import fiftyfive.wicket.css.InternetExplorerCss;
-
 import org.apache.wicket.Application;
 import org.apache.wicket.Component;
-
 import org.apache.wicket.behavior.AttributeAppender;
 import org.apache.wicket.behavior.Behavior;
-
 import org.apache.wicket.markup.head.CssReferenceHeaderItem;
 import org.apache.wicket.markup.head.IHeaderResponse;
-
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.LoadableDetachableModel;
 import org.apache.wicket.model.Model;
 import org.apache.wicket.model.PropertyModel;
-
 import org.apache.wicket.request.Response;
 import org.apache.wicket.request.resource.PackageResourceReference;
-
 import org.apache.wicket.util.lang.Args;
 import org.apache.wicket.util.lang.Classes;
 import org.apache.wicket.util.string.Strings;
+
+import fiftyfive.util.ReflectUtils;
+import fiftyfive.wicket.basic.LabelWithPlaceholder;
+import fiftyfive.wicket.css.CssClassModifier;
+import fiftyfive.wicket.css.InternetExplorerCss;
 
 /**
  * Helper methods that greatly reduce the amount of boilerplate code needed

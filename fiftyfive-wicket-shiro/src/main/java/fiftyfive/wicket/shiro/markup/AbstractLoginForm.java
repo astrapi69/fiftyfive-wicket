@@ -37,7 +37,11 @@ import org.slf4j.LoggerFactory;
  */
 public abstract class AbstractLoginForm extends StatelessForm<Void>
 {
-    private static final Logger LOGGER = LoggerFactory.getLogger(LoginForm.class);
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private static final Logger LOGGER = LoggerFactory.getLogger(LoginForm.class);
     
     public AbstractLoginForm(String id)
     {

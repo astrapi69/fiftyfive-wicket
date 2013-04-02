@@ -17,8 +17,6 @@ package fiftyfive.wicket.data;
 
 import java.util.Iterator;
 
-import fiftyfive.wicket.data.DtoDataProvider;
-
 public class BeanResultProvider extends DtoDataProvider<BeanResult,Bean>
 {
     private int loadCount = 0;

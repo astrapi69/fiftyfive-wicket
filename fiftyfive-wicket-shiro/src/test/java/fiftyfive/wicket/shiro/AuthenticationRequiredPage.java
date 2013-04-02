@@ -20,4 +20,9 @@ import org.apache.shiro.authz.annotation.RequiresAuthentication;
 @RequiresAuthentication
 public class AuthenticationRequiredPage extends BaseTestPage
 {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 }

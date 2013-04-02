@@ -15,11 +15,12 @@
  */
 package fiftyfive.wicket.prototype;
 
-import fiftyfive.util.TruncateHelper;
 import org.apache.wicket.markup.ComponentTag;
 import org.apache.wicket.markup.MarkupStream;
 import org.apache.wicket.markup.RawMarkup;
 import org.apache.wicket.markup.html.WebComponent;
+
+import fiftyfive.util.TruncateHelper;
 
 /**
  * Truncates placeholder HTML markup to a specified maximum number of

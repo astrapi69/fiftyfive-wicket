@@ -32,6 +32,11 @@ import org.apache.wicket.util.string.StringValue;
 public class LogoutPage extends WebPage
 {
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
      * Bookmarkable constructor. If a {@code "to"} parameter is provided, assume it is a URI
      * and redirect to that URI upon logout. Otherwise redirect to the home page.
      */

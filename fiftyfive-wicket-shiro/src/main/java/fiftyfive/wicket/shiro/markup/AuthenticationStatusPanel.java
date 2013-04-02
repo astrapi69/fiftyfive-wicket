@@ -34,7 +34,12 @@ import org.apache.wicket.model.PropertyModel;
  */
 public class AuthenticationStatusPanel extends Panel
 {
-    public AuthenticationStatusPanel(String id)
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public AuthenticationStatusPanel(String id)
     {
         super(id);
         add(new Label("user", new PropertyModel<Object>(this, "username")));
