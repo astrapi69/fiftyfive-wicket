@@ -1,5 +1,5 @@
 /**
- * Copyright 2012 55 Minutes (http://www.55minutes.com)
+ * Copyright 2013 55 Minutes (http://www.55minutes.com)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,16 +17,16 @@ package fiftyfive.wicket;
 
 import java.util.Date;
 
+import fiftyfive.util.Version;
+
 import org.apache.wicket.protocol.http.RequestLogger;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.response.filter.AjaxServerAndClientTimeFilter;
-import org.apache.wicket.util.file.Path;
 import org.apache.wicket.util.time.Duration;
 import org.apache.wicket.util.time.Time;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import fiftyfive.util.Version;
+import static org.apache.wicket.RuntimeConfigurationType.DEVELOPMENT;
 
 /**
  * Useful base class for Wicket applications that implements best practices
@@ -170,8 +170,8 @@ public abstract class FoundationApplication extends WebApplication
         {
             htmlDir += "/";
         } 
-        getResourceSettings().getResourceFinders().add(new Path(htmlDir + "../java"));
-        getResourceSettings().getResourceFinders().add(new Path(htmlDir + "../resources"));
+        getResourceSettings().addResourceFolder(htmlDir + "../java");
+        getResourceSettings().addResourceFolder(htmlDir + "../resources");
     }
     
     /**

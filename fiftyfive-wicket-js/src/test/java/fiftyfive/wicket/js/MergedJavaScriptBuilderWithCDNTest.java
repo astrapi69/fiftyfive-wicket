@@ -1,5 +1,5 @@
 /**
- * Copyright 2012 55 Minutes (http://www.55minutes.com)
+ * Copyright 2013 55 Minutes (http://www.55minutes.com)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -42,6 +42,6 @@ public class MergedJavaScriptBuilderWithCDNTest extends MergedJavaScriptBuilderT
     protected void onAppInit(WebApplication app)
     {
         super.onAppInit(app);
-        new SimpleCDN("//gh23g239adgah.cloudfront.net").install(app);
+        new SimpleCDN("http://gh23g239adgah.cloudfront.net").install(app);
     }
 }
